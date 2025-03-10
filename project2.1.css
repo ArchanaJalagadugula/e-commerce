@@ -1,0 +1,261 @@
+.container{
+    background-color: lightsalmon;
+}
+body{
+    flex-wrap: nowrap;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+.first a{
+    text-decoration: none;
+    color: black;
+
+}
+    
+.box{
+    background-color: white;
+    width: 14vw;
+    text-transform: uppercase;
+    margin-left: 100px;
+    border-radius: 5px ;
+    text-align: center;
+}
+.bold{
+    margin-left: 100px;
+}
+#btn{
+    background-color: blueviolet;
+    width: 10vw;
+    text-transform: uppercase;
+    height: 2vw;
+    color: white;
+}
+.image{
+    display: flex;
+    justify-content: flex-end;
+    height: 300px;
+    margin-right: 50px;
+    
+}
+.second{
+    padding: 40px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shadow{
+    border: 2px solid rgb(206, 211, 224) ;
+    width: 30vw;
+    box-shadow: 2px 2px 10px rgba(1, 1, 1, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 50px;
+}
+.shadow1{
+    border: 2px solid rgb(206, 211, 224);
+    width: 30vw;
+    box-shadow: 2px 2px 10px rgba(1, 1, 1, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.shadow2{
+    border: 2px solid rgb(206, 211, 224);
+    width: 30vw;
+    box-shadow: 2px 2px 10px rgba(1, 1, 1, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.third{
+    background-image:url("OIP.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+    align-items: center;
+    text-shadow: 2px 2px 10px;
+    margin: 0; 
+}
+.box1{
+    border: 4px dotted white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: right;
+}
+.image3{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.image3 img{
+    width: 30vw;
+    height: 60vh;
+}
+.right{
+    font-family: 'Times New Roman', Times, serif;
+}
+.img5{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.img4 img{
+    width: 30vw;
+    height: 60vh;
+}
+.fifth{
+    background-image: url("depositphotos_5645242-stock-photo-headphones.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    align-items: center;
+    font-family: 'Times New Roman', Times,;
+    padding: 20px;
+    font-size: 2em;
+}
+.sixth{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    /* grid-area: 50cm ; */
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.seven{
+    background-color: lightcyan;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px 10%;
+    
+}
+.details{
+    text-decoration: none;
+}
+.flex{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.flex input{
+    display: flex;
+    flex-basis: 40%;
+    height: 5vw;
+}
+.btn5{
+    width: 11vw;
+    height: 10vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;  
+}
+body{
+    flex-wrap: wrap;
+    width: 100vw;
+}
+#one{
+    border: 2px solid white;
+    padding: 5px;
+}
+#two{
+    border: 2px solid white;
+    padding: 5px; 
+}
+#three{
+    border: 2px solid white;
+    padding: 5px;
+}
+#four{
+    border: 2px solid white;
+    padding: 20px;
+}
+.eight{
+    background-image: url("OIP\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.combo{
+    display: flex;
+    flex-direction: row;
+}
+.nine{
+    border: 2px solid white;
+    width: 25vw;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+.ten{
+   background-color: blueviolet;
+   width: 20vw;
+   color: white;
+   text-align: center;
+   padding-top: 6px;
+}
+.last{
+    margin-left: 40px;
+    padding: 20px;
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    
+}
+.kusu{
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    row-gap: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
+@media(max-width:u600px){
+    body{
+        font-size: 1.2em;
+    }
+}
